@@ -1,0 +1,31 @@
+{
+  "name": "mokshajs",
+  "version": "1.0.0",
+  "description": "A javascript framework for Web UI automation",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "selenium-standalone install",
+    "start": "selenium-standalone start",
+    "test": "mocha --config moksha-conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryvn/mokshajs.git"
+  },
+  "author": "Hari Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harryvn/mokshajs/issues"
+  },
+  "homepage": "https://github.com/harryvn/mokshajs#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "config": "^3.3.7",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.1.0",
+    "pm2": "^5.2.0",
+    "selenium-standalone": "^8.0.9",
+    "selenium-webdriver": "^4.1.1",
+    "winston": "^3.6.0"
+  }
+}
