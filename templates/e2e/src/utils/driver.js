@@ -13,7 +13,7 @@ let driver = new Builder()
 class Driver {
   constructor() {
     global.driver = driver;
-    log.info("driver Initialized");
+    log.info("WebDriver Initialized");
     log.info("Opening " + browser + " browser");
   }
 }

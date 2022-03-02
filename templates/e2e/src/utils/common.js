@@ -3,7 +3,7 @@ require("chai").should();
 const { By, Key, until } = require("selenium-webdriver");
 const config = require("config");
 const log = require("./logger");
-const env = process.env.NODE_ENV;
+const env = process.env.NODE_ENV || "live";
 
 const baseURL = config.get("url");
 
