@@ -7,7 +7,7 @@ module.exports = {
   slow: 1000,
   recursive: true,
 
-  spec: ["./specs/loginSpec.js"],
+  spec: ["./specs/loginSpec.js", "./specs/logoutSpec.js"],
 
   parallel: false,
   reporter: "mochawesome",

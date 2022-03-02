@@ -7,6 +7,7 @@ Compatible with Linux, Mac, Windows terminals
 # Usage
 
 - The Entry Point
+
   -- with npx
 
   $ npx create-moksha

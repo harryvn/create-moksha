@@ -104,6 +104,22 @@ async function createNewDir(nameOfDir) {
         shell.exec("npm install --silent");
         await resolveAfter2Seconds();
         spinner.succeed();
+        await resolveAfter2Seconds();
+        console.log(
+          boxen(
+            chalk.cyanBright.bold(
+              "=> Open project in IDE/editor of your choice \n=> Read the instructions in README.md file \n=> Follow along from '- Begin'"
+            ),
+            {
+              title: chalk.cyanBright.bold("All Set!"),
+              titleAlignment: "center",
+              borderStyle: "classic",
+              borderColor: "cyanBright",
+            }
+          )
+        );
+
+        shell.exit(1);
       } else {
         spinner = ora(txtDctr("Installing project dependencies...")).start();
         await resolveAfter2Seconds();
@@ -111,19 +127,19 @@ async function createNewDir(nameOfDir) {
         await resolveAfter2Seconds();
         spinner.succeed();
         await resolveAfter2Seconds();
-        ora(
+        console.log(
           boxen(
             chalk.cyanBright.bold(
-              "Open the created project in your favourite editor and follow the instructions in (README.md) from keyword (Begin) onwards!"
+              "=> Open project in IDE/editor of your choice \n=> Read the instructions in README.md file \n=> Follow along from '- Begin'"
             ),
             {
               title: chalk.cyanBright.bold("All Set!"),
-              // titleAlignment: "center",
+              titleAlignment: "center",
               borderStyle: "classic",
               borderColor: "cyanBright",
             }
           )
-        ).stopAndPersist();
+        );
 
         shell.exit(1);
       }
