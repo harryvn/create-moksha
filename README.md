@@ -1,17 +1,29 @@
-# Starter Kit
+# **Starter Kit**
 
-A simple cli that creates an automation framework using boilerplate templates.
+=======================================================================
 
-Compatible with Linux, Mac, Windows terminals
+> A simple cli that creates an automation framework skeleton using boilerplate templates.
 
-# Usage
+Compatible with default terminals on:
 
-- The Entry Point
+- Linux
+- Mac
+- Windows
 
-  -- with npx
+### **Usage**
 
-  $ npx create-moksha
+=======================================================================
 
-  -- with npm
+> **with npx**
 
-  $ npm install -g create-moksha
+        npx create-moksha
+
+> **with npm**
+
+        npm install -g create-moksha
+
+### hmm... so, what's next?
+
+> The below command will create an automation framework project structure with boilerplate templates and few sample codes.
+
+        create-moksha
