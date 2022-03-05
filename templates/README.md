@@ -1,7 +1,5 @@
 # **mokshajs**
 
-=======================================================================
-
 > **A bare minimum automation framework that can be used as a starter kit.**
 
 Compatible with default terminals on:
@@ -12,11 +10,9 @@ Compatible with default terminals on:
 
 ### **Usage**
 
-=======================================================================
-
 > The Entry Point
 
-        cd e2e/src
+- **Ensure you are at location e2e/src**
 
 ---
 
@@ -28,15 +24,13 @@ Compatible with default terminals on:
 
 ##### **Begin**
 
-=======================================================================
-
 > The key command (this command will start the standalone selenium grid as a background process)
+
+- **Ensure you are at location e2e/src**
 
         pm2 start ecosystem.config.js
 
 ##### Wait!
-
-=======================================================================
 
 > What did I just do?
 > open your favourite browser and head over to 'http://localhost:4444'
@@ -45,32 +39,27 @@ Compatible with default terminals on:
 
 ##### Continue
 
-=======================================================================
-
 > To execute the sample tests
 
         npm test
 
 ##### Sneak Peek
 
-=======================================================================
-
 > Bravo! the execution completed
 
         logs are here "src/logs"
+
+---
+
         reports are here "src/reports"
 
 ##### Relax
-
-=======================================================================
 
 > Bored with repeated tests (stop the standalone selenium grid background process)
 
         pm2 stop ecosystem.config.js
 
 ##### End
-
-=======================================================================
 
 > Call it a Day!
 

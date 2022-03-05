@@ -1,8 +1,6 @@
 # **Starter Kit**
 
-=======================================================================
-
-> A simple cli that creates an automation framework skeleton using boilerplate templates.
+> A simple cli to create an automation framework skeleton using boilerplate templates.
 
 Compatible with default terminals on:
 
@@ -11,8 +9,6 @@ Compatible with default terminals on:
 - Windows
 
 ### **Usage**
-
-=======================================================================
 
 > **with npx**
 
@@ -27,3 +23,5 @@ Compatible with default terminals on:
 > The below command will create an automation framework project structure with boilerplate templates and few sample codes.
 
         create-moksha
+
+![create-moksha](assets/images/create-moksha.png "create-moksha")
